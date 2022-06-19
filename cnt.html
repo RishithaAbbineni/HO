@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <meta http-equip="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+    
+    .yellow {
+      background-color:rgb(196, 196, 0);
+      width: 100%;
+      padding-left:25px;
+      padding-right: 50px;
+      padding-top: 100px;
+      padding-bottom: 25px;
+      border: 10px solid black;
+      }
+    
+    .container {
+        
+      position: relative;
+      text-align: topright;
+      color: black
+    }
+    
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      h1{
+          color: #333;
+          margin-left: 500px;
+      }
+      .wrapper{
+          margin-left: 5px;
+          margin-top: 50px;
+
+      }
+      .box{
+          margin-top: 50px;
+      }
+
+      h2{
+          font-style: oblique;      }
+      </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="Mainpage.html">Home</a>
+            <a class="port.html" href="port.html">Portfolio</a>
+            <a href="active">Contact</a>
+            <a href="Resume.html">Resume</a>
+          </div>
+    <div class ="container">
+        <h2>CONTACT</h2>
+        <form>
+            <div class="wrapper">
+                <div class="box"> 
+                    <input type="text" name="fname" id="fname" required>
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="box">
+                    <input type ="text" name="lname" id="lname" required>
+                    <label for="lname">Last Name</label>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="box">
+                    <input type="email" name="mail" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="box">
+                    <input type ="text" name="telephone" id="tel" required>
+                    <label for="telephone">Mobile</label>
+                </div>
+                <div class="wrapper">
+                <div class="box">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Type your message here.....</label>
+                </div>
+            </div>
+            <input type="submit" name="" value="submit">
+        </form>
+    </div>
+</body>
+</html>
